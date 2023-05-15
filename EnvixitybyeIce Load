@@ -1,0 +1,29 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "wait...",  	
+
+Text = "loading...",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Welcome to Envixity Bloxfruit Hub",  	
+
+Text = "Made By Envixity#7381",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "UI Scripted by: TheNcore#5063",  	
+
+Text = "Script UP-DATED 5/15/23",
+
+})
+
+_ _
+
+:
+
+getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://raw.githubusercontent.com/Ghsstx/Envixity-Bloxfruit-script/main/Envixity"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["EnvixityScriptsHubV2"]="EnvixityHub"}}).Body)()
